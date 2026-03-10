@@ -88,6 +88,24 @@ pnpm openclaw dashboard
 如果你需要移除 OpenClaw 服务，请根据操作系统执行以下命令。
 *(注：如果 CLI 命令 `openclaw uninstall` 无法使用，请手动执行以下步骤)*
 
+### 删除命令（CLI已安装）
+源码安装的执行以下命令
+```bash
+pnpm openclaw uninstall
+```
+
+一键脚本安装的执行以下命令
+```bash
+openclaw uninstall
+```
+
+*如果 CLI 已删除但服务仍在运行，使用手动服务移除。*，执行以下命令：
+
+
+
+
+*如果 CLI 未安装，使用手动服务移除。*，执行以下命令：
+
 ### 🍎 macOS (launchd)
 默认标签是 `bot.molt.gateway`（或 `bot.molt.<profile>`；旧版 `com.openclaw.*` 可能仍然存在）：
 ```bash
