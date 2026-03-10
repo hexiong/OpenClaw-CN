@@ -86,7 +86,6 @@ pnpm openclaw dashboard
 ## 🗑️ 卸载说明 (Uninstall)
 
 如果你需要移除 OpenClaw 服务，请根据操作系统执行以下命令。
-*(注：如果 CLI 命令 `openclaw uninstall` 无法使用，请手动执行以下步骤)*
 
 ### 删除命令（CLI已安装）
 源码安装的执行以下命令
@@ -101,8 +100,16 @@ openclaw uninstall
 
 *如果 CLI 已删除但服务仍在运行，使用手动服务移除。*，执行以下命令：
 
+```bash
+npm rm -g openclaw
+pnpm remove -g openclaw
+bun remove -g openclaw
+```
 
-
+如果你安装了 macOS 应用：
+```bash
+rm -rf /Applications/OpenClaw.app
+```
 
 *如果 CLI 未安装，使用手动服务移除。*，执行以下命令：
 
@@ -215,6 +222,9 @@ OpenClaw CN 是一场由开发者驱动的本地化“闪电战”。目前，�
 我们要寻找前 100 位核心贡献者。
 如果你想第一时间体验 DeepSeek 适配版，或者想与我们一起从 0 到 1 建设生态，
 欢迎加入 OpenClaw CN 早期共建群。
+
+> **📢 关于微信交流群限流的说明**
+> 随着 OpenClaw CN 社区的快速发展，每日入群人数激增。为了提供更优质的开源互助环境，避免群消息泛滥，**每天晚上 8 点将定时释放新的交流群二维码，各系统每日限额 1 个群**。如遇二维码提示“群已满”，请于次日晚 8 点再来扫码加入。
 
 <div align="center">
   <table>
