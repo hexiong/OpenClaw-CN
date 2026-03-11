@@ -250,6 +250,33 @@ OpenClaw CN 是一场由开发者驱动的本地化“闪电战”。目前，�
 
 ---
 
+## ☕ 请开发者喝杯咖啡 (Buy Us a Coffee)
+
+OpenClaw CN 致力于为中国开发者提供最顺滑的 Local Agent 基础设施。如果这个开源项目为你节省了宝贵的开发时间，或者让你觉得“这代码写得有点意思”，欢迎用微信或支付宝扫码，请团队喝杯冰美式！
+
+你的微量赞助将直接用于填补服务器开销，以及购买更多的防脱发洗发水。
+
+> **💡 特别说明**：本区块仅限个人开发者的“用爱发电”。如果您是企业用户，并希望获得首页 Logo 墙、导航栏底座等千万级流量曝光，请向上查看 **【🤝 商业合作与赞助】** 板块。
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="./wechat-reward.jpg" alt="微信赞助" width="200">
+        <br>
+        <b>💚 微信赞助 (金额随意)</b>
+      </td>
+      <td align="center">
+        <img src="./alipay-reward.jpg" alt="支付宝赞助" width="200">
+        <br>
+        <b>💙 支付宝赞助 (金额随意)</b>
+      </td>
+    </tr>
+  </table>
+  <p><i>❤️ 感谢每一位支持开源生态的开发者！</i></p>
+</div>
+
+
 ## ⚠️ 免责声明
 
 本项目基于 [OpenClaw Official](https://github.com/openclaw/openclaw) 构建。
