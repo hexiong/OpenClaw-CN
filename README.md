@@ -111,7 +111,7 @@ bun remove -g openclaw
 rm -rf /Applications/OpenClaw.app
 ```
 
-*如果 CLI 未安装，使用手动服务移除。*，执行以下命令：
+*如果 CLI 未安装，使用手动服务移除。*执行以下命令：
 
 ### 🍎 macOS (launchd)
 默认标签是 `bot.molt.gateway`（或 `bot.molt.<profile>`；旧版 `com.openclaw.*` 可能仍然存在）：
@@ -264,12 +264,7 @@ OpenClaw CN 致力于为中国开发者提供最顺滑的 Local Agent 基础设�
       <td align="center">
         <img src="./wechat-reward.jpg" alt="微信赞助" width="200">
         <br>
-        <b>💚 微信赞助 (金额随意)</b>
-      </td>
-      <td align="center">
-        <img src="./alipay-reward.jpg" alt="支付宝赞助" width="200">
-        <br>
-        <b>💙 支付宝赞助 (金额随意)</b>
+        <b>💚 微信赞助</b>
       </td>
     </tr>
   </table>
