@@ -44,10 +44,10 @@ const VERBOSE_LEVELS = [
 const REASONING_LEVELS = ["", "off", "on", "stream"] as const;
 
 function getVerboseLabel(value: string): string {
-  if (value === "") return t("sessionsPage.inherit");
-  if (value === "off") return t("sessionsPage.verboseOff");
-  if (value === "on") return t("sessionsPage.verboseOn");
-  if (value === "full") return t("sessionsPage.verboseFull");
+  if (value === "") { return t("sessionsPage.inherit"); }
+  if (value === "off") { return t("sessionsPage.verboseOff"); }
+  if (value === "on") { return t("sessionsPage.verboseOn"); }
+  if (value === "full") { return t("sessionsPage.verboseFull"); }
   return value;
 }
 
