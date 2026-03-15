@@ -595,7 +595,7 @@ export async function runGatewayUpdate(opts: UpdateRunnerOptions = {}): Promise<
             step(`preflight lint (${shortSha})`, managerScriptArgs(manager, "lint"), worktreeDir),
           );
           steps.push(lintStep);
-          if (true) {
+          if (lintStep.exitCode !== 0) {
             continue;
           }
 
