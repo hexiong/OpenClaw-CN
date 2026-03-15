@@ -2,13 +2,7 @@
   "name": "openclaw",
   "version": "2026.2.23-cn",
   "description": "更懂中文环境的 Local Agent 实战社区版 (OpenClaw CN)",
-  "keywords": [
-    "ai",
-    "agent",
-    "deepseek",
-    "openclaw",
-    "chinese"
-  ],
+  "keywords": ["ai", "agent", "deepseek", "openclaw", "chinese"],
   "homepage": "https://open-claw.org.cn",
   "bugs": {
     "url": "https://gitee.com/OpenClaw-CN/openclaw-cn/issues"
@@ -93,7 +87,7 @@
     "ios:gen": "bash -lc './scripts/ios-configure-signing.sh && cd apps/ios && xcodegen generate'",
     "ios:open": "bash -lc './scripts/ios-configure-signing.sh && cd apps/ios && xcodegen generate && open OpenClaw.xcodeproj'",
     "ios:run": "bash -lc './scripts/ios-configure-signing.sh && cd apps/ios && xcodegen generate && xcodebuild -project OpenClaw.xcodeproj -scheme OpenClaw -destination \"${IOS_DEST:-platform=iOS Simulator,name=iPhone 17}\" -configuration Debug build && xcrun simctl boot \"${IOS_SIM:-iPhone 17}\" || true && xcrun simctl launch booted ai.openclaw.ios'",
-    "lint": "echo Lint && exit 0",
+    "lint": "oxlint --type-aware",
     "lint:all": "pnpm lint && pnpm lint:swift",
     "lint:docs": "pnpm dlx markdownlint-cli2",
     "lint:docs:fix": "pnpm dlx markdownlint-cli2 --fix",
@@ -234,7 +228,7 @@
     "minimumReleaseAge": 2880,
     "overrides": {
       "hono": "4.11.10",
-      "libsignal": "git+https://gitee.com/OpenClaw-CN/libsignal-node.git",
+	  "libsignal": "git+https://gitee.com/OpenClaw-CN/libsignal-node.git",
       "fast-xml-parser": "5.3.6",
       "request": "npm:@cypress/request@3.0.10",
       "request-promise": "npm:@cypress/request-promise@5.0.0",
